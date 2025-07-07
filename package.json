@@ -1,0 +1,23 @@
+{
+  "name": "ecosystem-simulation",
+  "homepage": "https://yaseenrehan123.github.io/Ecosystem-Simulation/",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "piton-engine": "^0.0.16"
+  }
+}

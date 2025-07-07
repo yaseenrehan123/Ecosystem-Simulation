@@ -1,0 +1,8 @@
+{
+    "foodSpawnDelay":1.5,
+    "foodSpawnCounter":0,
+    "minFoodSpawns":1,
+    "maxFoodSpawns":8,
+    "energyDepletionRate":0.05,
+    "energyGainUponEating":1
+}

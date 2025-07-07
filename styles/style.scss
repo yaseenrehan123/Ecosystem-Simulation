@@ -1,0 +1,20 @@
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+};
+body{
+    @include flexCenter();
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+canvas{
+    background-color: green;
+    border: 5px solid black;
+}
